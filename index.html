@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>practice</title>
+      <link rel="stylesheet" href="quiz.css">
+
+<style>
+      body{
+            background-color: lightgreen;
+      }
+      h1{
+            text-align: center;
+      }
+      .bb{
+      
+           
+            color: rgb(197, 68, 68);
+          
+            text-transform: uppercase;
+            text-align: center;
+            
+      }
+      .cc{
+            text-decoration: underline;
+            text-align: center;
+            
+      }
+      .btn {
+            text-align: center;
+            
+            
+      }
+
+      .btn button{
+           
+            background-color: antiquewhite;
+            color: black;
+            border: 1px solid red;
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
+            
+      }
+
+</style>
+
+</head>
+
+<body>
+      <!-- <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aperiam, aliquid inventore? Nulla, eaque! Optio fugit
+            eius qui minus iurereprehenderit molestiae in natus 
+            quae,maiores cumque ratione animi libero similique.</p>
+            <input type="text" name="" id="input">
+            <button onclick="search()">Search</button> -->
+                                       <!-- pic -->
+            <!-- <img src="skyblue.jpeg" alt="" id="hide" onclick="pic()"> -->
+            <h1   id="a" >Hello world</h1>
+            <div class="btn">
+                  <button type="button"    onclick="beauty()" >casChange</button>
+                  <button onclick="underline()">underline</button>
+            </div>
+            
+</body>
+<script>
+//       function search(){
+// var para =document.getElementById("para")
+// var change =para.innerText.toLowerCase()
+// var input =document.getElementById("input").value.toLowerCase()
+// para.innerHTML=  (change.replaceAll( input , `<mark>${input} </mark>` ))
+//       }
+      function beauty ( ) {
+            var a =document.getElementById("a").className = "bb" 
+      }
+      function underline ( ) {
+            var a =document.getElementById("a").className += " cc"
+      }
+</script>
+</html>
